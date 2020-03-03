@@ -1,0 +1,10 @@
+var a=10;
+var b=20;
+var c=a+b; 
+var d=a-b;
+var e=a*b;
+console.log("the sum of a+b is:"+c);
+console.log("the difference of a-b is:"+d);
+console.log("the multiplication of a*b is:"+e);
+var f=a/b;
+console.log("the division of a/b is:"+f);
