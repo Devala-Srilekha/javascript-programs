@@ -1,0 +1,53 @@
+
+nav{
+    background-color:#0F9D58;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.main-div mat-card{
+    padding: 0px;
+}
+
+.login-form{
+    background-color: white;
+    padding: 20px;
+    color:black;
+}
+
+
+.example-full-width input[type="text"], input[type="password"]{
+    border: 2px solid #0F9D58;
+    border-radius: 1px;
+    padding: 8px 12px;
+    width: 90%;
+    font-size: 16px;
+    
+}
+
+body{
+    background-size:cover;
+    width:auto;
+    background-image:url('/assets/scenary.jpg');
+    background-position:50% 50%;
+    
+}
+.button {
+    background-color: blue; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align-last: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+    object-position: center;
+    font-size: 16px;
+  }
+
