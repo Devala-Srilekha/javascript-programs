@@ -18,7 +18,14 @@ nav{
     padding: 20px;
     color:black;
 }
+#login-button{
+    height: 30px;
+    align-items: center;
+    object-position: center;
+    font-size: 16px;
+    display: table-cell;
 
+}
 
 .example-full-width input[type="text"], input[type="password"]{
     border: 2px solid #0F9D58;
@@ -36,18 +43,4 @@ body{
     background-position:50% 50%;
     
 }
-.button {
-    background-color: blue; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align-last: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    align-items: center;
-    object-position: center;
-    font-size: 16px;
-  }
 

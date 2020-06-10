@@ -3,21 +3,19 @@ import {Router, ActivatedRoute} from '@angular/router';
 import {AuthServiceService} from '../api.service';
 
 @Component({
-  selector: 'app-view-notification',
-  templateUrl: './view-notification.component.html',
-  styleUrls: ['./view-notification.component.css']
+  selector: 'app-view-scheduled',
+  templateUrl: './view-scheduled.component.html',
+  styleUrls: ['./view-scheduled.component.css']
 })
-export class ViewNotificationComponent implements OnInit {
+export class ViewScheduledComponent implements OnInit {
+
   public postList: any = {};
   public id: number;
 
-
   constructor(private authService: AuthServiceService, private router: ActivatedRoute,private route : Router) { }
-
-
-getAnnouncementById(id){
+  viewScheduledAnnouncement(id){
   id=this.router.snapshot.params['id']
-  this.authService.getAnnouncementById(id).subscribe(result =>{
+  this.authService.viewScheduledAnnouncement(id).subscribe(result =>{
     console.log(result);
     this.postList = result;
     //console.log(postList.image);
@@ -28,10 +26,12 @@ getAnnouncementById(id){
 }
 
 ngOnInit() {
-   this.getAnnouncementById(this.router.snapshot.params['id']); 
+   this.viewScheduledAnnouncement(this.router.snapshot.params['id']); 
 
 }
+
 goToNotification(id){
-  this.route.navigate(['/view-notification',id]);
+  this.route.navigate(['/view-scheduled',id]);
 }
+
 }

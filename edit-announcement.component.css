@@ -32,7 +32,7 @@
   .container {
     width: 450px;
     padding: 50px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     margin-left:100px;
     margin-top:-585px;
     justify-content:center;
@@ -44,7 +44,7 @@
     margin-left:700px;
     width:40%;
     height:580px;
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
     justify-content: center;
     margin-top:0px;
 
@@ -105,19 +105,20 @@
   #schedule{
     margin-left: -20px;
     padding-left: 20px;
+    margin-top:30px;
    
 
   }
 
   #schbtn{
-    margin-top: 19px;
-    background-color:#F4B400;
+    background-color:#4285F4;
     color: white;
-    padding: 12px 15px;
-    margin-left:20px;
+    padding: 12px 20px;
     border: none;
+    margin-top:17px;
     border-radius: 4px;
     cursor: pointer;
+    float: right;
   
   }
 

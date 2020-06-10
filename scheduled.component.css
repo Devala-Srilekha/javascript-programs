@@ -49,20 +49,11 @@
     font-size: medium;
   }
   
-  .text1 {
-    background-color:#fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-family:arial;
-    font-size:15px;
-    padding-right: 40px;
-    vertical-align: middle;
-    display: inline-block;
-    height:370px;
-    width:22%;
-    margin: 20px;
-    margin-left: 40px;
-    border:none;
-    }  
+  .btn {
+    float:right;
+    margin-top:-70px;
+    margin-right:80px;
+        }  
     
 
  .header{
@@ -75,9 +66,7 @@
 
  }
 
- mat-card-title{
-   font-size:20;
- }
+ 
   
  .mat-toolbar.mat-primary {
   background:#0F9D58;
@@ -94,8 +83,37 @@
     color: #0F9D58;
 
 }
-img{
-  width: 250px;
-  height:170px;
+h1{
+  text-align:center;
 }
 
+p{
+  font-size:22px;
+}
+#viewbtn
+{
+  background-color:#F4B400;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#editbtn
+{
+  background-color:#0F9D58;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#deletebtn
+{
+  background-color:#DB4437;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

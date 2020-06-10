@@ -39,7 +39,6 @@
     height: 55px;
     display: flex;
     align-items: center;
-    background-color: #5b8eee;
     color: white;
     font-weight: 300;
   }
@@ -80,7 +79,6 @@
  }
   
  .mat-toolbar.mat-primary {
-  background:#0F9D58;
   color: #fff;
 }
 
@@ -91,7 +89,7 @@
 
 .btn{
     background-color:white ;
-    color: #0F9D58;
+    color:purple;
 
 }
 img{

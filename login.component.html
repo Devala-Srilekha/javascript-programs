@@ -6,7 +6,7 @@
 <div fxLayoutAlign = "center center" fxFlexFill class = "main-div">
     <mat-card fxFlex = "25" >
         <form fxLayoutAlign = "stretch" fxLayout = "column" class="login-form" [formGroup] = "formGroup" (ngSubmit)="loginProcess()">
-      
+          <h2 align="center">Login</h2>
           <label>Username</label>
             <mat-form-field class="example-full-width">
               <input type="text" formControlName="email_id">
@@ -14,9 +14,8 @@
              <label>Password</label>
             <mat-form-field class="example-full-width">
                 <input type = "password" formControlName="password">
-                
               </mat-form-field>
-              <a href="Login"><button class="button">Login</button></a>
+              <button mat.raised.button color = "accent" type="submit" id="login-button" >login</button>
             </form>
     </mat-card>
   </div>
